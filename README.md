@@ -20,14 +20,14 @@ As of the first push to Github, if the sequence is picked up in ENA but filtered
 - A species mapping file (something specifically for spimap)
 
 ## How to use
-Currently, you'll have to add your own Uniprot ID string and modify the script to use those files. Input and output names are at the top. As you can tell, this was for personal use. I will change this if I start passing it around the lab or if my shame at having been a professional once catches up to me.
+Currently, you'll have to add your own text file of Uniprot accession IDs (row-separated) and modify the script to use those files. Input and output names are at the top. As you can tell, this was for personal use. I will change this if I start passing the script around the lab or if my shame at having been a professional once catches up to me.
 
 ## Known issues
 Some sequences (such as the protein M1CEV4 in test_list.txt) do not start with ATG, and are not from species that could be an exception. This is something I'm working on, so I wouldn't recommend using this seriously right now.
 
-The aforementioned mediocre sequence handling for ENA data might mean some seqs get missed.
+The aforementioned mediocre handling of potential bad ENA seq data might mean some seqs get missed.
 
-The API calls take a long time, and currently it doesn't make files halfway when it probably could do.
+The API calls take a long time, and currently it doesn't make files halfway when it probably should.
 
 
 ## Citations
